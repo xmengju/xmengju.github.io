@@ -1,0 +1,60 @@
+---
+title: "Xiaomeng Ju"
+subtitle: "Assistant Professor in Statistics<br>University of Victoria<br><span class='email'><i class='bi bi-envelope'></i> xiaomengju AT uvic.ca</span>"
+format:
+  html:
+    grid:
+      body-width: 1150px
+image: images/profile.jpg
+about:
+  template: trestles
+  image-shape: rounded
+  image-width: 15em
+  links:
+    - icon: mortarboard
+      text: Google Scholar
+      href: https://scholar.google.com/citations?user=34x9IJMAAAAJ&hl=en
+    - icon: github
+      text: GitHub
+      href: https://github.com/xmengju
+---
+
+I am an **Assistant Professor** in the [Department of Mathematics and Statistics](https://www.uvic.ca/science/math-statistics/) at the **University of Victoria**.
+
+My research develops statistical methods for complex data including functions, matrices, and tensors, with a focus on Bayesian methods for neuroimaging and precision medicine. Learn more on my [Research](research.qmd) and [Publications](publications.qmd) pages.
+
+Before joining UVic, I was a postdoctoral researcher in [Biostatistics](https://med.nyu.edu/departments-institutes/population-health/divisions-sections-centers/biostatistics) at the [NYU Grossman School of Medicine](https://med.nyu.edu), working with [Thaddeus Tarpey](https://med.nyu.edu/faculty/thaddeus-tarpey) and [Hyung G. Park](https://med.nyu.edu/faculty/hyung-g-park).
+I received my Ph.D. in [Statistics](https://www.stat.ubc.ca) from the [University of British Columbia](https://www.ubc.ca), supervised by [Matías Salibián-Barrera](https://www.stat.ubc.ca/users/matias-salibian-barrera).
+
+::: {.recruiting}
+**I am recruiting!** I am looking for **graduate students (M.Sc. / Ph.D.)**, **undergraduate research assistants**, and **research interns** to join my group.
+[Learn more →](supervision.qmd)
+:::
+
+::: {.grid}
+
+::: {.g-col-12 .g-col-md-6}
+### Education
+
+**Ph.D. in Statistics**, 2022\
+University of British Columbia
+
+**M.A. in Statistics**, 2015\
+University of Michigan
+
+**B.S. in Statistics**, 2013\
+Renmin University of China
+:::
+
+::: {.g-col-12 .g-col-md-6}
+### Interests
+
+- Bayesian statistics
+- Functional data analysis
+- Tensor methods
+- Statistical learning
+- Robust statistics
+- Neuroimaging (fMRI, EEG) and precision medicine
+:::
+
+:::

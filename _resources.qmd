@@ -1,0 +1,27 @@
+---
+title: "Resources"
+---
+
+<!--
+A starter list: add, remove, or reorder freely.
+Format: - [Name](link) — one-line description
+-->
+
+A short, personal list of resources I find useful, for students and anyone interested in my research areas.
+
+## Bayesian Statistics
+
+- [Bayesian Data Analysis](http://www.stat.columbia.edu/~gelman/book/) — Gelman et al.; the standard graduate reference, with a free PDF of the third edition.
+- [Statistical Rethinking](https://xcelab.net/rm/) — Richard McElreath; an accessible introduction with recorded lectures.
+- [Stan](https://mc-stan.org) — a probabilistic programming language for Bayesian modeling, with interfaces for R and Python.
+
+## Functional Data Analysis
+
+- [fda](https://cran.r-project.org/package=fda) — R package accompanying Ramsay and Silverman's *Functional Data Analysis*.
+- [refund](https://cran.r-project.org/package=refund) — R package for regression with functional data.
+
+## Neuroimaging Data and Tools
+
+- [Human Connectome Project](https://www.humanconnectome.org) — large open dataset of brain imaging, including resting-state fMRI.
+- [OpenNeuro](https://openneuro.org) — free repository of open neuroimaging datasets (MRI, EEG, MEG).
+- [MNE-Python](https://mne.tools) — Python toolkit for processing and analyzing EEG and MEG data.

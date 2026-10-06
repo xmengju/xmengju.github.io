@@ -1,0 +1,191 @@
+/*-- scss:defaults --*/
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Source+Serif+4:opsz,wght@8..60,500;8..60,600&display=swap');
+
+$font-family-sans-serif: "Inter", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+$headings-font-family: "Source Serif 4", Georgia, "Times New Roman", serif;
+$font-size-base: 1rem;
+$line-height-base: 1.65;
+
+$uvic-blue: #005493;
+
+$primary: #1a75bb;      // brighter blue for links and text
+$accent-blue: #3a95dc;  // lighter, brighter blue for bars, bullets and tags
+$body-bg: #ffffff;
+$body-color: #2b3036;
+$link-color: $primary;
+$link-decoration: none;
+
+$navbar-bg: #ffffff;
+$navbar-fg: #4a4f55;
+$navbar-hl: $primary;
+$footer-bg: #ffffff;
+
+/*-- scss:rules --*/
+
+a:hover { text-decoration: underline; }
+
+h1, h2, h3 { color: #15191d; }
+body { --accent: #{$accent-blue}; }
+
+h2 {
+  margin-top: 2.25rem;
+  padding-left: 0.65rem;
+  border-left: 4px solid var(--accent);
+  border-bottom: none;
+}
+h3 { color: #4a4f55; }
+
+ul li::marker { color: var(--accent); }
+
+.navbar { border-bottom: 1px solid #e5e8eb; }
+
+table { border-color: #e5e8eb; }
+thead th { border-bottom: 2px solid var(--accent) !important; }
+.navbar-brand { font-family: $headings-font-family; font-weight: 600; }
+
+.muted { color: #6c757d; }
+
+// ---- Publications: figure on the left, text on the right ----
+.pub {
+  display: grid;
+  grid-template-columns: 200px 1fr;
+  column-gap: 1.5rem;
+  row-gap: 0;
+  align-items: start;
+  padding: 1.25rem 0;
+  border-bottom: 1px solid #eef0f2;
+
+  > * { grid-column: 2; margin-bottom: 0.35rem; }
+  em { color: #5a6b7c; }
+
+  > p:has(> img) {
+    grid-column: 1;
+    grid-row: 1 / span 8;
+    margin: 0;
+  }
+
+  img {
+    width: 100%;
+    aspect-ratio: 4 / 3;
+    object-fit: contain;
+  }
+
+  // Last paragraph holds the links (Paper · arXiv · Code)
+  > p:last-child { font-size: 0.9rem; margin-bottom: 0; }
+}
+
+// Entries without a figure or label use the full width
+.pub:not(:has(img)):not(:has(.pub-type)) { display: block; }
+
+// Type label (Journal / Preprint / ...) in the left column
+.pub:has(.pub-type) { grid-template-columns: 7rem 1fr; }
+.pub > p:has(> .pub-type) {
+  grid-column: 1;
+  grid-row: 1 / span 8;
+  margin: 0.15rem 0 0;
+}
+.pub-type {
+  display: inline-block;
+  padding: 0.1rem 0.6rem;
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  color: $primary;
+  border: 1px solid $accent-blue;
+  border-radius: 999px;
+  white-space: nowrap;
+
+  &.blue  { color: #15659f; background: #e8f1fa; border-color: #e8f1fa; }  // published: journal, workshop, thesis
+  &.green { color: #2a6e44; background: #e6f2ea; border-color: #e6f2ea; }  // not yet published: preprint, under review
+}
+
+@media (max-width: 576px) {
+  .pub {
+    grid-template-columns: 1fr;
+    > * { grid-column: 1; }
+    > p:has(> img) { grid-row: auto; margin-bottom: 0.75rem; }
+    > p:has(> .pub-type) { grid-row: auto; margin-bottom: 0.4rem; }
+  }
+  .pub:has(.pub-type) {
+    grid-template-columns: 1fr;
+  }
+}
+
+// ---- Home page ----
+@media (min-width: 992px) {
+  body div.quarto-about-trestles .about-entity { flex: 0 0 320px; }
+  body div.quarto-about-trestles .about-contents { padding-left: 2.5em; }
+}
+.quarto-about-trestles .subtitle {
+  font-size: 1.1rem;
+  color: #5b6168;
+  margin-top: 0.25rem;
+}
+
+.quarto-about-trestles .about-link {
+  border-color: #cfd8e1;
+  color: $primary;
+  &:hover { background: #e6eef5; }
+}
+
+.recruiting {
+  margin: 1.75rem 0;
+  padding: 1rem 1.25rem;
+  background: #eef4fa;
+  border-left: 4px solid $accent-blue;
+  border-radius: 6px;
+
+  p { margin: 0; }
+  a { font-weight: 600; white-space: nowrap; }
+}
+
+
+// Small tag for courses that have not started yet
+.upcoming {
+  display: inline-block;
+  margin-left: 0.4rem;
+  padding: 0.05rem 0.5rem;
+  font-size: 0.75rem;
+  font-weight: 500;
+  color: $primary;
+  border: 1px solid var(--accent);
+  border-radius: 999px;
+  vertical-align: 0.1em;
+}
+
+// ---- Research page ----
+.related {
+  font-size: 0.9rem;
+  color: #6c757d;
+  margin: -0.25rem 0 1.5rem;
+
+  p { margin-bottom: 0.25rem; }
+  ul { margin-bottom: 0; padding-left: 1.2rem; }
+  li { margin-bottom: 0.15rem; }
+}
+.quarto-figure { margin: 1.25rem 0 1rem; }
+.figure-caption, figcaption {
+  font-size: 0.875rem;
+  color: #6c757d;
+  line-height: 1.5;
+}
+
+// Email shown under the title on the home page (spelled out to deter spam bots)
+.email {
+  display: inline-block;
+  margin-top: 0.5rem;
+  font-size: 0.95rem;
+  color: #4a4f55;
+  .bi { color: $primary; margin-right: 0.2rem; }
+}
+
+// Justified body text on wider screens (phones keep left alignment)
+@media (min-width: 576px) {
+  main.content p,
+  .about-contents p {
+    text-align: justify;
+    hyphens: auto;
+    -webkit-hyphens: auto;
+  }
+}

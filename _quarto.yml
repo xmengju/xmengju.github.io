@@ -1,0 +1,33 @@
+project:
+  type: website
+  output-dir: _site
+
+website:
+  title: "Xiaomeng Ju"
+  site-url: https://xmengju.github.io
+  description: "Xiaomeng Ju — Assistant Professor of Statistics, University of Victoria. Bayesian methods for neuroimaging data."
+  favicon: images/profile.jpg
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - research.qmd
+      - publications.qmd
+      - teaching.qmd
+      - supervision.qmd
+    right:
+      - icon: mortarboard
+        href: https://scholar.google.com/citations?user=34x9IJMAAAAJ&hl=en
+        aria-label: Google Scholar
+      - icon: github
+        href: https://github.com/xmengju
+        aria-label: GitHub
+  page-footer:
+    left: "© 2026 Xiaomeng Ju"
+    right: "Built with [Quarto](https://quarto.org)"
+
+format:
+  html:
+    theme: [cosmo, styles.scss]
+    toc: false
+    smooth-scroll: true

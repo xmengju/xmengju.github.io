@@ -1,0 +1,114 @@
+---
+title: "Publications"
+---
+
+<!--
+HOW TO ADD A PAPER
+Copy one ::: {.pub} ... ::: block and edit it.
+- First line is the type label shown on the left:
+  [Journal]{.pub-type .blue}, [Preprint]{.pub-type .green}, [Under Review]{.pub-type .green},
+  [Workshop]{.pub-type .blue}, or [Thesis]{.pub-type .blue}
+- Keep the last paragraph for links.
+-->
+
+See also [Google Scholar](https://scholar.google.com/citations?user=34x9IJMAAAAJ&hl=en). \* denotes equal contribution.
+
+::: {.pub}
+[Preprint]{.pub-type .green}
+
+**Bayesian mixed-effects models for multilevel two-way functional data: Applications to EEG experiments**\
+**Xiaomeng Ju**, Thaddeus Tarpey, Hyung G. Park\
+*arXiv preprint*, 2025
+
+[arXiv](https://arxiv.org/abs/2507.20092) · [Code](https://github.com/xmengju/BMEF)
+:::
+
+::: {.pub}
+[Preprint]{.pub-type .green}
+
+**K-Tensors: Clustering positive semi-definite matrices**\
+H. Zhang, **Xiaomeng Ju**, B. Shi, L. Meng, Thaddeus Tarpey\
+*arXiv preprint*, 2025
+
+[arXiv](https://arxiv.org/abs/2306.06534)
+:::
+
+::: {.pub}
+[Preprint]{.pub-type .green}
+
+**Low frequency oscillations in the medial orbitofrontal cortex mediate widespread hyperalgesia across pain conditions**\
+H. G. Park, G. Kenefati, M. M. Rockholt, **Xiaomeng Ju**, R. R. Wu, Z. S. Chen, T. A. Gonda, J. Wang, L. V. Doan\
+*medRxiv*, 2025
+
+[Paper](https://pubmed.ncbi.nlm.nih.gov/40585147/)
+:::
+
+::: {.pub}
+[Preprint]{.pub-type .green}
+
+**Robust gradient boosting for functional regression**\
+**Xiaomeng Ju**, Matías Salibián-Barrera\
+Under review, 2025
+
+Manuscript available upon request
+:::
+
+::: {.pub}
+[Journal]{.pub-type .blue}
+
+**Projection-pursuit Bayesian regression for symmetric matrix predictors**\
+**Xiaomeng Ju**, Hyung G. Park, Thaddeus Tarpey\
+*Journal of Multivariate Analysis*, 211, 105539, 2026
+
+[Paper](https://doi.org/10.1016/j.jmva.2025.105539)
+:::
+
+::: {.pub}
+[Journal]{.pub-type .blue}
+
+**Bayesian scalar-on-network regression with applications to brain functional connectivity**\
+**Xiaomeng Ju**, Hyung G. Park, Thaddeus Tarpey\
+*Biometrics*, 81(1), ujaf023, 2025
+
+[Paper](https://doi.org/10.1093/biomtc/ujaf023)
+:::
+
+::: {.pub}
+[Journal]{.pub-type .blue}
+
+**Tree-based boosting with functional data**\
+**Xiaomeng Ju**, Matías Salibián-Barrera\
+*Computational Statistics*, 39(3), 1587–1620, 2024
+
+[Paper](https://doi.org/10.1007/s00180-023-01364-2) · [Code](https://github.com/xmengju/RTFBoost)
+:::
+
+::: {.pub}
+[Journal]{.pub-type .blue}
+
+**Robust boosting for regression problems**\
+**Xiaomeng Ju**, Matías Salibián-Barrera\
+*Computational Statistics & Data Analysis*, 153, 107065, 2021
+
+[Paper](https://doi.org/10.1016/j.csda.2020.107065)
+:::
+
+::: {.pub}
+[Workshop]{.pub-type .blue}
+
+**Accelerating boosting via accelerated greedy coordinate descent**\
+**Xiaomeng Ju**\*, Y. Sun\*, S. Vaswani\*, M. Schmidt\
+*Optimization for Machine Learning Workshop (OPT)*, 2019
+
+[Paper](https://opt-ml.org/papers/2019/paper_19.pdf)
+:::
+
+::: {.pub}
+[Thesis]{.pub-type .blue}
+
+**Boosting for regression problems with complex data**\
+**Xiaomeng Ju**\
+Ph.D. dissertation, University of British Columbia, 2022
+
+[Thesis](https://open.library.ubc.ca/soa/cIRcle/collections/ubctheses/24/items/1.0418448)
+:::

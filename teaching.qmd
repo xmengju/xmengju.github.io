@@ -1,0 +1,31 @@
+---
+title: "Teaching"
+---
+
+## University of Victoria
+
+- **Sampling Methods** (STAT 354) — Spring 2027 [Upcoming]{.upcoming}
+
+## New York University — Guest Lecturer
+
+- **Advanced Regression Modeling** (BMSC-GA 4494, Ph.D. level) — Fall 2024, Fall 2025
+- **Statistical Learning** (EHSC-GA 2341, Ph.D. level) — Fall 2024
+
+## University of British Columbia — Teaching Assistant
+
+### Graduate courses
+
+- **Statistical Inference II** (STAT 561) — 2022
+- **Machine Learning** (CPSC 540) — 2019, 2020
+- **Algorithms and Data Structures** (DSCI 512) — 2019
+- **Databases and Data Retrieval** (DSCI 513) — 2019
+- **Supervised Learning I** (DSCI 571) — 2018
+
+### Undergraduate courses
+
+- **Elementary Statistics for Applications** (STAT 200) — 2016
+- **Statistical Inference for Data Science** (STAT 201) — 2021
+- **Elementary Statistics** (STAT 251; Head TA in 2021) — 2016, 2018, 2021
+- **Introduction to Probability** (STAT 302) — 2016, 2022
+- **Introduction to Statistical Inference** (STAT 305) — 2017, 2022
+- **Sample Surveys** (STAT 344) — 2015, 2016, 2021

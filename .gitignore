@@ -1,0 +1,10 @@
+/.quarto/
+/_site/
+.DS_Store
+CV_Xiaomeng_Ju*.pdf
+
+**/*.quarto_ipynb
+profile-original.jpg
+
+# CV kept locally but not published until an updated version is ready
+files/cv.pdf

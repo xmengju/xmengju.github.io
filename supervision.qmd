@@ -1,0 +1,41 @@
+---
+title: "Supervision"
+---
+
+## Prospective Graduate Students
+
+I am looking for motivated **M.Sc. and Ph.D. students** in Statistics to join my group in the [Department of Mathematics and Statistics](https://www.uvic.ca/science/math-statistics/) at the University of Victoria.
+
+Students in my group work on Bayesian methodology, functional data analysis, tensor methods, and computational statistics, often motivated by neuroimaging applications.
+A strong background in mathematics and statistics and experience with programming in R or Python are expected; prior exposure to Bayesian methods or neuroimaging is helpful but not required.
+
+For information about the [M.Sc.](https://www.uvic.ca/graduate/programs/graduate-programs/credential-pages/mathematics-and-statistics-cred/statistics-msc.php) and [Ph.D.](https://www.uvic.ca/graduate/programs/graduate-programs/credential-pages/mathematics-and-statistics-cred/statistics-phd.php) programs in Statistics and how to apply, see the department's [admission requirements](https://www.uvic.ca/science/math-statistics/future-students/graduate/admission-requirements/index.php).
+
+**Funding.** Graduate students in the department are typically funded through a combination of teaching assistantships, research assistantships, and scholarships.
+More information is available on UVic's [graduate funding](https://www.uvic.ca/graduatestudies/finances/graduate-student-funding/index.php) page.
+
+Applying for external scholarships is highly encouraged, for example the [Canada Graduate Research Scholarships](https://www.uvic.ca/graduatestudies/finances/external-scholarships/index.php) for Canadian citizens and permanent residents. Other scholarships include:
+
+- Indigenous students: [AISES scholarships](https://aises.org/scholarships/) and the [BC Hydro Indigenous Scholarship](https://www.bchydro.com/community/indigenous-relations/opportunities/individuals/donations_sponsorships.html)
+- Ph.D. applicants from China: the [China Scholarship Council (CSC) fellowship](https://www.uvic.ca/science/math-statistics/future-students/graduate/students-from-china/index.php)
+- Women in statistics: the ASA [Gertrude M. Cox Scholarship](https://stattrak.amstat.org/2026/02/02/cox-scholarship-2026/)
+
+**How to reach out.** If you are interested in working with me, please email me at xiaomengju AT uvic.ca with the subject line "Prospective student" and attach
+
+1. your CV,
+2. your transcripts (unofficial copies are fine),
+3. a short paragraph on which of my [research](research.qmd) directions interests you and why.
+
+Due to the volume of emails, I may not be able to reply to every message individually, but I read all messages that follow the instructions above.
+
+## Undergraduate Research Assistants and Research Interns
+
+Undergraduate students can join my group through the following programs:
+
+- [NSERC Undergraduate Student Research Award (USRA)](https://www.uvic.ca/science/math-statistics/current-students/undergraduate/research/index.php), for UVic students
+- [Faculty of Science Undergraduate Research Award (SURA)](https://www.uvic.ca/science/physics/current/undergraduate/awards/faculty-of-science-awards/index.php), for UVic students
+- [Honours projects](https://www.uvic.ca/science/math-statistics/current-students/undergraduate/programs/index.php), for UVic students
+- [Mitacs Globalink Research Internship](https://www.mitacs.ca/our-programs/globalink-research-internship-students/), for international students
+
+If you are interested in working with me through one of these programs, please email me your CV, transcripts, and a short note on your research interests.
+For USRA and SURA, submissions are typically due in January, so please contact me early for summer positions.
