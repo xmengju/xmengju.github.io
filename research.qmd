@@ -38,7 +38,8 @@ I am developing probabilistic models that summarize such data through a small nu
 
 ## Boosting for complex data
 
-I develop gradient boosting algorithms that are robust to outliers and that handle functional predictors, with implementations in open-source R packages.
+Gradient boosting builds flexible prediction models by combining many simple learners, such as small regression trees, one step at a time.
+My work develops boosting algorithms that are robust to outliers and that handle functional predictors, with implementations in open-source R packages.
 
 ![Schematic of the two ideas. Left: robust boosting tracks the bulk of the data, while least-squares boosting is pulled toward a few outliers. Right: functional predictors enter an ensemble of regression trees built stage by stage.](images/research/boosting.svg){fig-alt="Left: scatter plot with outliers where a dashed least-squares fit bends toward the outliers and a solid robust fit follows the main trend. Right: several curves feeding into a sum of small regression trees."}
 
