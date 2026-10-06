@@ -38,8 +38,7 @@ I am developing probabilistic models that summarize such data through a small nu
 
 ## Boosting for complex data
 
-My doctoral work developed gradient boosting algorithms that are robust to outliers and that handle functional predictors.
-These methods are implemented in open-source R packages.
+I develop gradient boosting algorithms that are robust to outliers and that handle functional predictors, with implementations in open-source R packages.
 
 ![Schematic of the two ideas. Left: robust boosting tracks the bulk of the data, while least-squares boosting is pulled toward a few outliers. Right: functional predictors enter an ensemble of regression trees built stage by stage.](images/research/boosting.svg){fig-alt="Left: scatter plot with outliers where a dashed least-squares fit bends toward the outliers and a solid robust fit follows the main trend. Right: several curves feeding into a sum of small regression trees."}
 
